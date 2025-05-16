@@ -64,7 +64,7 @@ map.on('load', async () => {
     // Bike stations
     let jsonData;
     try {
-        const jsonurl = "../bluebikes-stations.json";
+        const jsonurl = "bluebikes-stations.json";
 
         // Await JSON fetch
         jsonData = await d3.json(jsonurl);
